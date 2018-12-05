@@ -1,0 +1,77 @@
+[zh_login_page]
+#登陆用户名&密码
+login_page.username = xpath>//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+login_page.password = xpath>//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+#定位位输入框
+login_page.project = xpath>//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+#定位下拉框
+login_page.options = xpath>//html/body/div[3]/div/div/div/ul/li[1]
+
+login_page.button1 = xpath>//span[contains(text(),'登 录')]/..
+#错误提示信息
+
+login_page.error = xpath>//*[@id="__next"]/div/div/div[2]/div[2]/div[1]
+
+
+[zh_page_home]
+#物业收费
+page.charge = xpath>//div[contains(text(),'物业收费')]
+#客服工单
+page.work_order = xpath>//div[contains(text(),'客服工单')]
+#设备设施
+page.entrance_guard = xpath>//div[contains(text(),'设备设施')]
+
+#工作台
+page.workbench = xpath>//*[@id="__next"]/div/div[1]/div[1]/div/span[1]
+
+#个人信息设置1
+page.personal = xpath>//*[@id="__next"]/div/div[1]/div[1]/div/span[2]/span
+
+[zh_charge_page]
+
+##################################系统设置################################
+charge_setting = xpath>//*[@id="layout"]/aside/ul/li[6]/div/span
+#**************************收费员管理***************************************
+charge_management = xpath>//*[@id="5$Menu"]/li[1]/div/span
+#收费管理员设置
+charge_management_add =xpath>//*[@id="5-0$Menu"]/li[1]/span
+
+#选择小区第一个
+charge_community_select1 = xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/div[4]/div[2]
+charge_community_select2 = xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/div[2]/div[2]
+charge_community_select3 = xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/div[3]/div[2]
+charge_community_select4 = xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/div[1]/div[2]
+#添加按钮
+charge_add_button = xpath>//*[@id="layout"]/div/div/div/div[2]/div[2]/button
+#选择分组
+charge_select_department =  xpath>/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/ul/li/ul/li[1]/span[2]
+
+#定位员工
+charge_choose_inputs = xpath>//span[contains(text(),'应用管理员')]/../../span[1]
+#定位员工
+;charge_choose_inputs = xpath>/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div[3]/div/div/div/div/div/div/table/tbody/tr[1]/td[1]/label
+#确定按钮
+charge_button = xpath>/html/body/div[2]/div/div[2]/div/div[2]/div[3]/div/button[2]
+
+#*******************************收费权限设置*******************************
+charge_management_permissions = xpath>//*[@id="5-0$Menu"]/li[2]/span
+#确定按钮
+charge_button_yes = xpath>//*[@id="layout"]/div/div/div/div[2]/div[2]/div[1]/label/span[1]/input
+#取消按钮
+charge_button_no = xpath>//*[@id="layout"]/div/div/div/div[2]/div[2]/div[2]/label/span[1]/input
+
+#******************************收费员设置**********************************
+charge_managenment_choose = xpath>//*[@id="5-0$Menu"]/li[3]/span
+
+
+#*****************************收费管理员列表*********************************
+table = xpath>//*[@id="layout"]/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/table
+
+
+
+
+
+
+[qqmail_login]
+;//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div/div
+;//*[@id="__next"]/div/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div/div
