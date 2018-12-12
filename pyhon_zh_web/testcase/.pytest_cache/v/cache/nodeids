@@ -3,5 +3,7 @@
   "test_setting_managemen.py::Test_login::test_add_charge_managemen",
   "test_setting_managemen.py::Test_login::test_open_charge",
   "test_setting_managemen.py::Test_login::test_set_charge_no",
-  "test_setting_managemen.py::Test_login::test_set_charge_yes"
+  "test_setting_managemen.py::Test_login::test_set_charge_yes",
+  "test_setting_managemen.py::Test_login::test_set_is_selected",
+  "test_setting_managemen.py::Test_login::test_set_is_selected_no"
 ]

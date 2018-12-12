@@ -1,5 +1,5 @@
 {
-  "test_setting_managemen.py::Test_login::test_add_charge_managemen": true,
+  "test_setting_managemen.py::Test_login::test_add_charge_choose": true,
   "test_setting_managemen.py::Test_login::test_open_charge": true,
   "test_setting_managemen.py::Test_login::test_set_charge_no": true
 }

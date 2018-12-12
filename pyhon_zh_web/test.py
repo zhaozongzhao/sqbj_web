@@ -7,6 +7,6 @@
 
 'jsx-3914091371 block display'
 'jsx-3914091371 block display'
-h = "//span[contains(text(),'应用管理员')]/../../span[1]"
+h = "td[contains(text(),'应用管理员')]/../td[4]/a[1]"
 list = h.replace('应用管理员','收费员0')
 print(list)

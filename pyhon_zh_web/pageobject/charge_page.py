@@ -104,14 +104,39 @@ class Charge_Page(object):
         rows = row.find_elements_by_tag_name('td')
         return rows
 
-
+    #设置收费员收费标准权限
     def charge_button_yes(self):
         locateType, locateExpression = self.login_iteim['charge_button_yes'].split('>')
         addbutton = getElement(self.driver,locateType,locateExpression)
         return addbutton
 
+    #设置收费员收费标准权限
     def charge_button_no(self):
         locateType, locateExpression = self.login_iteim['charge_button_no'].split('>')
         addbutton = getElement(self.driver,locateType,locateExpression)
         return addbutton
 
+    #修改封账退款权限
+    def charge_administrator_permissions(self,employees):
+        locateType, locateExpression = self.login_iteim['charge_administrator_permissions'].split('>')
+        locateExpression1 = locateExpression.replace('应用管理员',employees)
+        addbutton = getElement(self.driver,locateType,locateExpression1)
+        return addbutton
+
+    #点击可退按钮
+    def charge_permissions_yes(self):
+        locateType, locateExpression = self.login_iteim['charge_permissions_yes'].split('>')
+        addbutton = getElement(self.driver,locateType,locateExpression)
+        return addbutton
+
+    #点击不可退按钮
+    def charge_permissions_no(self):
+        locateType, locateExpression = self.login_iteim['charge_permissions_no'].split('>')
+        addbutton = getElement(self.driver,locateType,locateExpression)
+        return addbutton
+
+    #点击确定按钮
+    def charge_determine_button(self):
+        locateType, locateExpression = self.login_iteim['charge_permissions_determinebutton'].split('>')
+        addbutton = getElement(self.driver,locateType,locateExpression)
+        return addbutton

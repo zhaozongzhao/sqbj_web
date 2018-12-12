@@ -41,10 +41,10 @@ class Test_login(unittest.TestCase):
     def test_add_charge_choose(self):
          CH = Charge(self.driver)
          page_charge_open(self.driver)
-         CH.add_charge_choose()
+         CH.add_charge_choose('小区2号','收费员1')
          time.sleep(2)
          list = CH.get_list()
-         self.assertIn('小赵1',list)
+         self.assertIn('收费员1',list)
 
     #设置收费管理员设置小区收费标准
     def test_set_charge_yes(self):
@@ -60,8 +60,20 @@ class Test_login(unittest.TestCase):
          page_charge_open(self.driver)
          CH.set_charge_permissions_no()
 
+    #设置收费员可封账后退款
+    def test_set_is_selected(self):
+        CH = Charge(self.driver)
+        page_charge_open(self.driver)
+        CH.amend_administrator_permissions('小区2号','收费管理2',1)
+        list = CH.get_list()
+        self.assertIn('可退',list)
 
 
-
-
+    #设置收费员封账后不可退款
+    def test_set_is_selected_no(self):
+        CH = Charge(self.driver)
+        page_charge_open(self.driver)
+        CH.amend_administrator_permissions('小区2号','收费管理2',2)
+        list = CH.get_list()
+        self.assertIn('不可退',list)
 

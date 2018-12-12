@@ -28,9 +28,13 @@ class Charge:
         CH.charge_choose_inputs(employees).click()
         time.sleep(1)
         CH.charge_button().click()
+        time.sleep(1)
+        #刷新浏览器
+        self.driver.refresh()
+        CH.charge_community_select(community).click()
 
     #添加收费员
-    def add_charge_choose(self):
+    def add_charge_choose(self,community,employees):
         CH =  Charge_Page(self.driver)
         time.sleep(1)
         CH.open_setting().click()
@@ -39,16 +43,15 @@ class Charge:
         time.sleep(1)
         CH.charge_managenment_choose().click()
         time.sleep(1)
-        CH.charge_community_select('赵哥小区二号').click()
+        CH.charge_community_select(community).click()
         time.sleep(1)
         CH.charge_add_button().click()
         time.sleep(1)
-        CH.charge_select_department().click()
+        # CH.charge_select_department().click()
         time.sleep(1)
-        CH.charge_choose_inputs().click()
+        CH.charge_choose_inputs(employees).click()
         time.sleep(1)
         CH.charge_button().click()
-
 
     #设置系统管理员权限
     def set_charge_permissions_yes(self):
@@ -90,6 +93,29 @@ class Charge:
              for j in CH.td_table_list(i):
                   list.append(j.text)
          return list
+
+    #设置退款权限
+    def amend_administrator_permissions(self,community,employees,type):
+       CH =  Charge_Page(self.driver)
+       time.sleep(1)
+       CH.open_setting().click()
+       time.sleep(1)
+       CH.charge_management().click()
+       time.sleep(1)
+       CH.charge_management_add().click()
+       time.sleep(1)
+       CH.charge_community_select(community).click()
+       time.sleep(4)
+       CH.charge_administrator_permissions(employees).click()
+       time.sleep(0.5)
+       if type ==1:
+          if not CH.charge_permissions_yes().is_selected():
+               CH.charge_permissions_yes().click()
+       else:
+          if not CH.charge_permissions_no().is_selected():
+               CH.charge_permissions_no().click()
+       time.sleep(0.5)
+       CH.charge_determine_button().click()
 
 
 

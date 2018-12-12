@@ -4,7 +4,7 @@ import unittest,time
 
 if __name__ == '__main__':
      now=time.strftime('%Y-%m-%d %H-%m-%M')
-     filename='/Users/hnbl009/gitfile/pyhon_zh_web/HtmlRoport/'+now+'resul.html'
+     filename='/Users/hnbl009/gitfile/webtest/pyhon_zh_web/HtmlRoport/'+now+'resul.html'
      fp = open(filename,'wb')
      runner = HTMLTestRunner(
          stream=fp,
@@ -12,6 +12,6 @@ if __name__ == '__main__':
          description='环境: mac 浏览器 ：chome '
      )
 
-     discover = unittest.defaultTestLoader.discover('/Users/hnbl009/gitfile/pyhon_zh_web/testcase/',pattern = 'test*.py')
+     discover = unittest.defaultTestLoader.discover('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/testcase/',pattern = 'test*.py')
      runner.run(discover)
      fp.close()

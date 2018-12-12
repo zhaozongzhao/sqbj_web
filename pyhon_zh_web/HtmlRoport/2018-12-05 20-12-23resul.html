@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-12-04 10:51:55</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:57.195326</p>
-<p class='attribute'><strong>Status:</strong> Pass 3 Failure 2 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-12-05 20:23:37</p>
+<p class='attribute'><strong>Duration:</strong> 0:02:40.229716</p>
+<p class='attribute'><strong>Status:</strong> Pass 9</p>
 
 <p class='description'>环境: mac 浏览器 ：chome </p>
 </div>
@@ -221,49 +221,31 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='failClass'>
+<tr class='passClass'>
     <td>test_login.Test_login</td>
-    <td>2</td>
+    <td>4</td>
+    <td>4</td>
     <td>0</td>
-    <td>2</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='failCase'><div class='testcase'>test_login_role_true</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_passworderror</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_login.py", line 37, in test_login_role_true
-    self.assertCountEqual('龙哥 · 智社区',geterror(self.driver))
-AssertionError: Element counts were not equal:
-First has 1, Second has 0:  '龙'
-First has 1, Second has 0:  '哥'
-First has 0, Second has 1:  '收'
-First has 0, Second has 1:  '费'
-First has 0, Second has 1:  '3'
-Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_login.py", line 37, in test_login_role_true
-    self.assertCountEqual('龙哥 · 智社区',geterror(self.driver))
-AssertionError: Element counts were not equal:
-First has 1, Second has 0:  '龙'
-First has 1, Second has 0:  '哥'
-First has 0, Second has 1:  '收'
-First has 0, Second has 1:  '费'
-First has 0, Second has 1:  '3'
-
+pt1.1: 
 
         </pre>
     </div>
@@ -272,36 +254,22 @@ First has 0, Second has 1:  '3'
     </td>
 </tr>
 
-<tr id='ft1.2' class='none'>
-    <td class='failCase'><div class='testcase'>test_login_true</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_role_true</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        fail</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
 
-    <div id='div_ft1.2' class="popup_window">
+    <div id='div_pt1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.2: Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_login.py", line 22, in test_login_true
-    self.assertEquals('赵宗召',get_name(self.driver))
-AssertionError: '赵宗召' != ''
-- 赵宗召
-+ 
-
-Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_login.py", line 22, in test_login_true
-    self.assertEquals('赵宗召',get_name(self.driver))
-AssertionError: '赵宗召' != ''
-- 赵宗召
-+ 
-
-
+pt1.2: 
 
         </pre>
     </div>
@@ -310,61 +278,79 @@ AssertionError: '赵宗召' != ''
     </td>
 </tr>
 
-<tr class='errorClass'>
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_true</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_usererror</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
     <td>test_setting_managemen.Test_login</td>
     <td>5</td>
-    <td>3</td>
+    <td>5</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c2',5)">Detail</a></td>
 </tr>
 
-<tr id='ft2.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_add_charge_choose</div></td>
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add_charge_choose</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        pass</a>
 
-    <div id='div_ft2.1' class="popup_window">
+    <div id='div_pt2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2.1: Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_setting_managemen.py", line 44, in test_add_charge_choose
-    CH.add_charge_choose()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Action/charge_operation.py", line 42, in add_charge_choose
-    CH.charge_community_select('赵哥小区二号').click()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/pageobject/charge_page.py", line 60, in charge_community_select
-    selectcommunityname = getElement(self.driver,locateType,locateExpression)
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 12, in getElement
-    raise e
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 9, in getElement
-    element = WebDriverWait(driver,10).until(lambda x:x.find_element(by=locatetype,value= locatorExpression))
-  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_setting_managemen.py", line 44, in test_add_charge_choose
-    CH.add_charge_choose()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Action/charge_operation.py", line 42, in add_charge_choose
-    CH.charge_community_select('赵哥小区二号').click()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/pageobject/charge_page.py", line 60, in charge_community_select
-    selectcommunityname = getElement(self.driver,locateType,locateExpression)
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 12, in getElement
-    raise e
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 9, in getElement
-    element = WebDriverWait(driver,10).until(lambda x:x.find_element(by=locatetype,value= locatorExpression))
-  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-
+pt2.1: 
 
         </pre>
     </div>
@@ -373,52 +359,22 @@ selenium.common.exceptions.TimeoutException: Message:
     </td>
 </tr>
 
-<tr id='ft2.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_add_charge_managemen</div></td>
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_add_charge_managemen</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.2')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
+        pass</a>
 
-    <div id='div_ft2.2' class="popup_window">
+    <div id='div_pt2.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft2.2: Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_setting_managemen.py", line 35, in test_add_charge_managemen
-    CH.add_charge_managemen()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Action/charge_operation.py", line 22, in add_charge_managemen
-    CH.charge_community_select('赵哥小区二号').click()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/pageobject/charge_page.py", line 60, in charge_community_select
-    selectcommunityname = getElement(self.driver,locateType,locateExpression)
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 12, in getElement
-    raise e
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 9, in getElement
-    element = WebDriverWait(driver,10).until(lambda x:x.find_element(by=locatetype,value= locatorExpression))
-  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-Traceback (most recent call last):
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/testcase/test_setting_managemen.py", line 35, in test_add_charge_managemen
-    CH.add_charge_managemen()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Action/charge_operation.py", line 22, in add_charge_managemen
-    CH.charge_community_select('赵哥小区二号').click()
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/pageobject/charge_page.py", line 60, in charge_community_select
-    selectcommunityname = getElement(self.driver,locateType,locateExpression)
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 12, in getElement
-    raise e
-  File "/Users/hnbl009/gitfile/pyhon_zh_web/Util/ObjectMap.py", line 9, in getElement
-    element = WebDriverWait(driver,10).until(lambda x:x.find_element(by=locatetype,value= locatorExpression))
-  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
-    raise TimeoutException(message, screen, stacktrace)
-selenium.common.exceptions.TimeoutException: Message: 
-
-
+pt2.2: 
 
         </pre>
     </div>
@@ -501,10 +457,10 @@ pt2.5:
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>7</td>
-    <td>3</td>
-    <td>2</td>
-    <td>2</td>
+    <td>9</td>
+    <td>9</td>
+    <td>0</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
