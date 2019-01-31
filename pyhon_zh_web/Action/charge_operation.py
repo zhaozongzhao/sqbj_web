@@ -115,7 +115,23 @@ class Charge:
           if not CH.charge_permissions_no().is_selected():
                CH.charge_permissions_no().click()
        time.sleep(0.5)
-       CH.charge_determine_button().click()
+       CH.charge_determine_button1().click()
 
+
+    #删除已经添加的员工
+    def delete_employeelf(self,community,employees,):
+       CH =Charge_Page(self.driver)
+       time.sleep(1)
+       CH.open_setting().click()
+       time.sleep(1)
+       CH.charge_management().click()
+       time.sleep(1)
+       CH.charge_management_add().click()
+       time.sleep(1)
+       CH.charge_community_select(community).click()
+       time.sleep(3)
+       CH.charge_delete_employees(employees).click()
+       time.sleep(1)
+       CH.charge_determine_button2().click()
 
 

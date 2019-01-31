@@ -7,11 +7,12 @@ from Util.var import *
 from Util.ObjectMap import *
 from selenium.webdriver.support.ui import Select
 
+
 class HomePage(object):
 
     def __init__(self,driver):
         self.driver = driver
-        self.paser_page_object = ParsePageObjectRepository()
+        self.paser_page_object = ParsePageObjectRepository('PageObjectRepository')
         self.login_iteim = self.paser_page_object.getItemSection('zh_page_home')
         self.wait = WebDriverWait(self.driver,10,0.2)
 
@@ -28,5 +29,6 @@ class HomePage(object):
         name = getElement(self.driver,locateType,locateExpression).text
         print(name)
         return name
+
 
 

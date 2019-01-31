@@ -1,5 +1,16 @@
 {
-  "test_setting_managemen.py::Test_login::test_add_charge_choose": true,
-  "test_setting_managemen.py::Test_login::test_open_charge": true,
-  "test_setting_managemen.py::Test_login::test_set_charge_no": true
+  "test_login.py::Test_login::test_login_passworderror": true,
+  "test_login.py::Test_login::test_login_true": true,
+  "test_login.py::Test_login::test_login_usererror": true,
+  "test_setting_managemen.py::Test_login::test_1open_charge1": true,
+  "test_setting_managemen.py::Test_login::test_2add_charge_managemen": true,
+  "test_setting_managemen.py::Test_login::test_3add_charge_choose": true,
+  "test_setting_managemen.py::Test_login::test_4set_charge_yes": true,
+  "test_setting_managemen.py::Test_login::test_5set_charge_no": true,
+  "test_setting_managemen.py::Test_login::test_6set_is_selected": true,
+  "test_setting_managemen.py::Test_login::test_7set_is_selected_no": true,
+  "test_setting_managemen.py::Test_login::test_8delete_employees": true,
+  "test_setting_managemen.py::Test_login::test_delete_employees": true,
+  "test_setting_managemen.py::Test_login::test_set_is_selected": true,
+  "test_setting_managemen.py::Test_login::test_set_is_selected_no": true
 }

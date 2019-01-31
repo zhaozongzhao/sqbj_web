@@ -11,7 +11,7 @@ class Charge_Page(object):
 
     def __init__(self,driver):
         self.driver = driver
-        self.paser_page_object = ParsePageObjectRepository()
+        self.paser_page_object = ParsePageObjectRepository('ChargePageRepository.ini')
         self.login_iteim = self.paser_page_object.getItemSection('zh_charge_page')
         self.wait = WebDriverWait(self.driver,10,0.2)
 
@@ -136,7 +136,19 @@ class Charge_Page(object):
         return addbutton
 
     #点击确定按钮
-    def charge_determine_button(self):
+    def charge_determine_button1(self):
         locateType, locateExpression = self.login_iteim['charge_permissions_determinebutton'].split('>')
+        addbutton = getElement(self.driver,locateType,locateExpression)
+        return addbutton
+
+    #删除员工
+    def charge_delete_employees(self,employees):
+        locateType, locateExpression = self.login_iteim['charge_delete_employees'].split('>')
+        locateExpression1 = locateExpression.replace('收费管理2',employees)
+        addbutton = getElement(self.driver,locateType,locateExpression1)
+        return addbutton
+
+    def charge_determine_button2(self):
+        locateType, locateExpression = self.login_iteim['charge_determine_button'].split('>')
         addbutton = getElement(self.driver,locateType,locateExpression)
         return addbutton

@@ -6,7 +6,7 @@ from  selenium.webdriver.support.ui import  WebDriverWait
 def getElement(driver,locatetype,locatorExpression):
 
     try:
-        element = WebDriverWait(driver,10).until(lambda x:x.find_element(by=locatetype,value= locatorExpression))
+        element = WebDriverWait(driver,10,0.5).until(lambda x:x.find_element(by=locatetype,value= locatorExpression))
         return element
     except Exception as e:
         raise e
@@ -16,9 +16,11 @@ def getElement(driver,locatetype,locatorExpression):
 def getElements(driver,locatetype,locatorExpression):
     try:
 
-        elements = WebDriverWait(driver,5).until(lambda x:x.find_elements(by=locatetype,value=locatorExpression))
+        elements = WebDriverWait(driver,5,0.5).until(lambda x:x.find_elements(by=locatetype,value=locatorExpression))
         return elements
     except  Exception as e:
         raise e
+
+    driver.find_elements
 
 
