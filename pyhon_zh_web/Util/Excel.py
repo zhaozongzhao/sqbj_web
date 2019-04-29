@@ -1,4 +1,4 @@
-from openpyxl import load_workbook,Workbook
+from openpyxl import load_workbook
 from openpyxl.styles import Border,Side,Font
 import time
 from Util.var import  *
@@ -86,6 +86,19 @@ class parseExcel(object):
     def save_ecxel_file(self):
         self.workbook.save(self.excelpath)
 
+    #将列表中的数据以列表的形式返回
+    def get_caseDatas_all(self):
+        all_case_datas = []
+        for index in range(2,self.sheet.max_row+1):
+            case_data={}
+            case_data['username'] = self.sheet.cell(index,2).value
+            case_data['password'] = self.sheet.cell(index,3).value
+            case_data['assertuaser'] = self.sheet.cell(index,4).value
+            case_data['matching'] = self.sheet.cell(index,5).value
+            all_case_datas.append(case_data)
+        return all_case_datas
+
+
 if __name__ == '__main__':
    #测试单元
    p = parseExcel(Excelobject_path)
@@ -106,3 +119,4 @@ if __name__ == '__main__':
    print('获取行号和列号(2,2)单元格内容呢',p.get_cell_content(2,2))
    print('通过行号和列号写入内容',p.write_cell_content(2,2,'邮箱地址'))
    print('通过行号和列号写入时间',p.write_cell_content_time(2,7))
+   print('返回以列表的形式返回数据',p.get_caseDatas_all())

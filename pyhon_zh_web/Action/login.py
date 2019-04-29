@@ -1,6 +1,6 @@
-from  pageobject.login_page import *
-
+from pageobject.login_page import *
 from selenium import webdriver
+
 
 
 
@@ -9,7 +9,6 @@ def login(driver,userename,passord):
     lp = LoginPage(driver)
     lp.getUserName().send_keys(userename)
     lp.getPassword().send_keys(passord)
-
     try:
         lp.getProjectinput().click()
         #当账户属于多个租户

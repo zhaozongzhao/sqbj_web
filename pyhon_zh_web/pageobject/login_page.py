@@ -44,10 +44,11 @@ class LoginPage(object):
 
     #获取当前选择的租户信息
     def getuserorpassworderror(self):
+        time.sleep(5)
         locateType,locateExpression = self.login_iteim['login_page.error'].split('>')
         time.sleep(1)
         loginbutton1 = getElement(self.driver,locateType,locateExpression)
-        return tenant
+        return loginbutton1
 
     #判断存在租户
     def gettenant(self):

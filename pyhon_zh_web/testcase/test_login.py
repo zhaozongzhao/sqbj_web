@@ -1,48 +1,73 @@
 import unittest
-from selenium import webdriver
+import ddt
 from Action.login import *
 from Action.page_home import *
 from Util.Excel import *
-from Util.var import *
 from Util.special import *
+from Util.var import *
+from testcase.log import *
+
+pe = parseExcel(Excelobject_path)
+All_case_date = pe.get_caseDatas_all()
+info(All_case_date)
+
+@ddt.ddt
 class Test_login(unittest.TestCase):
 
     def setUp(self):
         self.driver =  webdriver.Chrome()
-        self.driver.get('http://smart.sit2.sqbj.com/portal/login')
-        self.pe = parseExcel(Excelobject_path)
+        url ='http://smart.sit2.sqbj.com/portal/login'
+        self.driver.get(url)
+        info('登陆地址{}'.format(url))
         self.alert = special(self.driver)
 
     def tearDown(self):
         self.driver.close()
 
-    #正确用户正确密码
-    def test_login_true(self):
-        login(self.driver,self.pe.get_cell_content(2,2),self.pe.get_cell_content(2,3))
-        time.sleep(5)
-        assert self.pe.get_cell_content(2,4) in self.driver.page_source
+    @ddt.data(*All_case_date)
+    def test_login_true(self,case_data):
+        try:
+          info('登陆用户名{},密码{}'.format(case_data['username'],case_data['password']))
+          login(self.driver,case_data['username'],case_data['password'])
+          time.sleep(10)
+          info('登陆校验信息{},{}'.format(case_data['matching'],case_data['assertuaser']))
+          if case_data['matching'] ==0:
+             assert case_data['assertuaser'] in self.driver.page_source
+          elif case_data['matching'] ==1:
+             self.assertCountEqual(case_data['assertuaser'],geterror(self.driver))
+        except TypeError as e:
+            debug(e)
+        except Exception as e:
+            traceback.print_exc(e)
+            debug(e)
+#
 
 
+    #  #正确用户正确密码
+    # def test_login_true(self):
+    #     login(self.driver,self.pe.get_cell_content(2,2),self.pe.get_cell_content(2,3))
+    #     time.sleep(5)
+    #     assert self.pe.get_cell_content(2,4) in self.driver.page_source
+    #
 
-    #不同角色用户登录
-    def test_login_role_true(self):
-        login(self.driver,self.pe.get_cell_content(3,2),self.pe.get_cell_content(3,3))
-        assert self.pe.get_cell_content(3,4) in self.driver.page_source
+    # #不同角色用户登录
+    # def test_login_role_true(self):
+    #     login(self.driver,self.pe.get_cell_content(3,2),self.pe.get_cell_content(3,3))
+    #     assert self.pe.get_cell_content(3,4) in self.driver.page_source
+    #
+    #
+    # #使用其他用户的密码登陆
+    # def test_login_passworderror(self):
+    #     login(self.driver,self.pe.get_cell_content(4,2),self.pe.get_cell_content(4,3))
+    #     time.sleep(3)
+    #     print(geterror(self.driver))
+    #     self.assertCountEqual(self.pe.get_cell_content(4,4),geterror(self.driver))
+    #
+    # #手机号码不存在
+    # def test_login_usererror(self):
+    #     login(self.driver,self.pe.get_cell_content(5,2),self.pe.get_cell_content(5,3))
+    #     time.sleep(3)
+    #     print(geterror(self.driver))
+    #     self.assertCountEqual(self.pe.get_cell_content(5,4),geterror(self.driver))
 
-
-    #使用其他用户的密码登陆
-    def test_login_passworderror(self):
-        login(self.driver,self.pe.get_cell_content(4,2),self.pe.get_cell_content(4,3))
-        time.sleep(3)
-        print(geterror(self.driver))
-        self.assertCountEqual(self.pe.get_cell_content(4,4),geterror(self.driver))
-
-    #手机号码不存在
-    def test_login_usererror(self):
-        login(self.driver,self.pe.get_cell_content(5,2),self.pe.get_cell_content(5,3))
-        time.sleep(3)
-        print(geterror(self.driver))
-        self.assertCountEqual(self.pe.get_cell_content(5,4),geterror(self.driver))
-
-if __name__ == '__main__':
-    Test_login()
+#

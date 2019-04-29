@@ -1,6 +1,5 @@
 
-
-from  selenium.webdriver.support.ui import  WebDriverWait
+from selenium.webdriver.support.ui import WebDriverWait
 
 #获取单个元素对象
 def getElement(driver,locatetype,locatorExpression):

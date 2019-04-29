@@ -1,0 +1,63 @@
+Mon, 29 Apr 2019 14:48:30 log.py[line:22] INFO cee 
+Mon, 29 Apr 2019 14:48:30 log.py[line:22] INFO [{'username': 16600000001, 'password': 111111, 'assertuaser': '应用管理员', 'matching': 0}, {'username': 16600000004, 'password': 111111, 'assertuaser': '收费员0', 'matching': 0}, {'username': 16600000002, 'password': 123456, 'assertuaser': 'hahahahah', 'matching': 1}, {'username': 16600000000, 'password': 111111, 'assertuaser': 'snansanmca ', 'matching': 1}, {'username': None, 'password': None, 'assertuaser': None, 'matching': None}]
+Mon, 29 Apr 2019 14:48:37 log.py[line:22] INFO 登陆地址
+Mon, 29 Apr 2019 14:48:37 log.py[line:22] INFO 登陆用户名,密码
+Mon, 29 Apr 2019 14:48:59 log.py[line:22] INFO 登陆地址
+Mon, 29 Apr 2019 14:48:59 log.py[line:22] INFO 登陆用户名,密码
+Mon, 29 Apr 2019 14:49:26 log.py[line:22] INFO 登陆地址
+Mon, 29 Apr 2019 14:49:26 log.py[line:22] INFO 登陆用户名,密码
+Mon, 29 Apr 2019 14:49:56 log.py[line:22] INFO 登陆地址
+Mon, 29 Apr 2019 14:49:56 log.py[line:22] INFO 登陆用户名,密码
+Mon, 29 Apr 2019 14:50:24 log.py[line:22] INFO 登陆地址
+Mon, 29 Apr 2019 14:50:24 log.py[line:22] INFO 登陆用户名,密码
+Mon, 29 Apr 2019 14:59:44 log.py[line:22] INFO cee 
+Mon, 29 Apr 2019 14:59:44 log.py[line:22] INFO [{'username': 16600000001, 'password': 111111, 'assertuaser': '应用管理员', 'matching': 0}, {'username': 16600000004, 'password': 111111, 'assertuaser': '收费员0', 'matching': 0}, {'username': 16600000002, 'password': 123456, 'assertuaser': 'hahahahah', 'matching': 1}, {'username': 16600000000, 'password': 111111, 'assertuaser': 'snansanmca ', 'matching': 1}, {'username': None, 'password': None, 'assertuaser': None, 'matching': None}]
+Mon, 29 Apr 2019 14:59:50 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 14:59:50 log.py[line:22] INFO 登陆用户名16600000001,密码111111
+Mon, 29 Apr 2019 15:00:13 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:00:13 log.py[line:22] INFO 登陆用户名16600000004,密码111111
+Mon, 29 Apr 2019 15:00:39 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:00:39 log.py[line:22] INFO 登陆用户名16600000002,密码123456
+Mon, 29 Apr 2019 15:01:01 log.py[line:14] DEBUG 'WebElement' object is not iterable
+Mon, 29 Apr 2019 15:01:07 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:01:07 log.py[line:22] INFO 登陆用户名16600000000,密码111111
+Mon, 29 Apr 2019 15:01:29 log.py[line:14] DEBUG 'WebElement' object is not iterable
+Mon, 29 Apr 2019 15:01:34 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:01:34 log.py[line:22] INFO 登陆用户名None,密码None
+Mon, 29 Apr 2019 15:01:34 log.py[line:14] DEBUG object of type 'NoneType' has no len()
+Mon, 29 Apr 2019 15:04:25 log.py[line:22] INFO cee 
+Mon, 29 Apr 2019 15:04:25 log.py[line:22] INFO [{'username': 16600000001, 'password': 111111, 'assertuaser': '应用管理员', 'matching': 0}, {'username': 16600000004, 'password': 111111, 'assertuaser': '收费员0', 'matching': 0}, {'username': 16600000002, 'password': 123456, 'assertuaser': 'hahahahah', 'matching': 1}, {'username': 16600000000, 'password': 111111, 'assertuaser': 'snansanmca ', 'matching': 1}, {'username': None, 'password': None, 'assertuaser': None, 'matching': None}]
+Mon, 29 Apr 2019 15:04:31 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:04:31 log.py[line:22] INFO 登陆用户名16600000001,密码111111
+Mon, 29 Apr 2019 15:04:46 log.py[line:22] INFO 登陆校验信息0,应用管理员
+Mon, 29 Apr 2019 15:04:51 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:04:51 log.py[line:22] INFO 登陆用户名16600000004,密码111111
+Mon, 29 Apr 2019 15:05:12 log.py[line:22] INFO 登陆校验信息0,收费员0
+Mon, 29 Apr 2019 15:05:18 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:05:18 log.py[line:22] INFO 登陆用户名16600000002,密码123456
+Mon, 29 Apr 2019 15:05:40 log.py[line:14] DEBUG 'WebElement' object is not iterable
+Mon, 29 Apr 2019 15:05:50 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:05:50 log.py[line:22] INFO 登陆用户名16600000000,密码111111
+Mon, 29 Apr 2019 15:06:12 log.py[line:14] DEBUG 'WebElement' object is not iterable
+Mon, 29 Apr 2019 15:06:20 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 15:06:20 log.py[line:22] INFO 登陆用户名None,密码None
+Mon, 29 Apr 2019 15:06:20 log.py[line:14] DEBUG object of type 'NoneType' has no len()
+Mon, 29 Apr 2019 18:42:25 log.py[line:22] INFO cee 
+Mon, 29 Apr 2019 18:42:25 log.py[line:22] INFO [{'username': 16600000001, 'password': 111111, 'assertuaser': '应用管理员', 'matching': 0}, {'username': 16600000004, 'password': 111111, 'assertuaser': '收费员0', 'matching': 0}, {'username': 16600000002, 'password': 123456, 'assertuaser': 'hahahahah', 'matching': 1}, {'username': 16600000000, 'password': 111111, 'assertuaser': 'snansanmca ', 'matching': 1}, {'username': None, 'password': None, 'assertuaser': None, 'matching': None}]
+Mon, 29 Apr 2019 18:42:30 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 18:42:30 log.py[line:22] INFO 登陆用户名16600000001,密码111111
+Mon, 29 Apr 2019 18:42:45 log.py[line:22] INFO 登陆校验信息0,应用管理员
+Mon, 29 Apr 2019 18:42:50 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 18:42:50 log.py[line:22] INFO 登陆用户名16600000004,密码111111
+Mon, 29 Apr 2019 18:43:11 log.py[line:22] INFO 登陆校验信息0,收费员0
+Mon, 29 Apr 2019 18:43:16 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 18:43:16 log.py[line:22] INFO 登陆用户名16600000002,密码123456
+Mon, 29 Apr 2019 18:43:37 log.py[line:22] INFO 登陆校验信息1,hahahahah
+Mon, 29 Apr 2019 18:43:43 log.py[line:14] DEBUG 'WebElement' object is not iterable
+Mon, 29 Apr 2019 18:43:50 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 18:43:50 log.py[line:22] INFO 登陆用户名16600000000,密码111111
+Mon, 29 Apr 2019 18:44:11 log.py[line:22] INFO 登陆校验信息1,snansanmca 
+Mon, 29 Apr 2019 18:44:17 log.py[line:14] DEBUG 'WebElement' object is not iterable
+Mon, 29 Apr 2019 18:44:23 log.py[line:22] INFO 登陆地址http://smart.sit2.sqbj.com/portal/login
+Mon, 29 Apr 2019 18:44:23 log.py[line:22] INFO 登陆用户名None,密码None
+Mon, 29 Apr 2019 18:44:24 log.py[line:14] DEBUG object of type 'NoneType' has no len()

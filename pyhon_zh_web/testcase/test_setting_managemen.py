@@ -34,6 +34,7 @@ class Test_login(unittest.TestCase):
          page_charge_open(self.driver)
          CH.add_charge_managemen('小区2号','收费管理1')
          list = CH.get_list()
+         time.sleep(1)
          self.assertIn('收费管理1',list)
 
 
