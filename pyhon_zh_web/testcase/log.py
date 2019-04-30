@@ -21,6 +21,6 @@ def info(message):
      #打印info级别的日志
      logging.info(message)
 
-info('cee ')
+info('验证测试数据哈哈哈')
 
 

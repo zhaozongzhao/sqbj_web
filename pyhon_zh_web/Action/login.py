@@ -22,12 +22,17 @@ def login(driver,userename,passord):
 #获取登陆失败提示
 def geterror(driver):
     lp = LoginPage(driver)
-    error = lp.getuserorpassworderror()
-    return error
+    try:
+        error = lp.getuserorpassworderror()
+    except Exception as E:
+        print(E)
+    else:
+         return error.text
 
 
 if __name__ == '__main__':
     #册数代码
     driver =  webdriver.Chrome()
-    driver.get('http://smart.sit2.sqbj.com/login')
+    driver.get('http://smart.sit2.sqbj.com/portal/login')
     login(driver,'18301565568','123456')
+    print(geterror(driver))

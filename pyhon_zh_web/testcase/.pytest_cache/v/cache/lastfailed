@@ -4,6 +4,7 @@
   "test_login.py::Test_login::test_login_true_1_16600000001": true,
   "test_login.py::Test_login::test_login_true_2_111111": true,
   "test_login.py::Test_login::test_login_true_3_\u5e94\u7528\u7ba1\u7406\u5458": true,
+  "test_login.py::Test_login::test_login_true_5": true,
   "test_login.py::Test_login::test_login_usererror": true,
   "test_setting_managemen.py::Test_login::test_2add_charge_managemen": true,
   "test_setting_managemen.py::Test_login::test_6set_is_selected": true,
