@@ -31,8 +31,9 @@ def geterror(driver):
 
 
 if __name__ == '__main__':
-    #册数代码
+    #测试代码
     driver =  webdriver.Chrome()
     driver.get('http://smart.sit2.sqbj.com/portal/login')
-    login(driver,'18301565568','123456')
+    login(driver,'18301565568','111111')
     print(geterror(driver))
+    driver.quit()

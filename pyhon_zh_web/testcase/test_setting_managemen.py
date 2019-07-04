@@ -9,8 +9,13 @@ from Util.special import *
 class Test_login(unittest.TestCase):
 
 
+
     def setUp(self):
-        self.driver =  webdriver.Chrome()
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
+        self.driver = webdriver.Chrome(driver_path= '' ,chrome_options=chrome_options,
+                service_args=['--verbose', '--log-path=<path-to-log>/chromedriver.log'])
         self.driver.get('http://smart.sit2.sqbj.com/portal/login')
         self.pe = parseExcel(Excelobject_path)
         self.alert = special(self.driver)

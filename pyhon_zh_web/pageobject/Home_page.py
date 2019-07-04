@@ -22,6 +22,12 @@ class HomePage(object):
         charge = getElement(self.driver,locateType,locateExpression)
         return charge
 
+    #定位基础服务
+    def open_basic(self):
+        locateType, locateExpression = self.login_iteim['page.basic_services'].split('>')
+        charge = getElement(self.driver,locateType,locateExpression)
+        return charge
+
 
     def get_login_name(self):
         locateType, locateExpression = self.login_iteim['page.personal'].split('>')

@@ -6,6 +6,8 @@ page.charge = xpath>//div[contains(text(),'物业收费')]
 page.work_order = xpath>//div[contains(text(),'客服工单')]
 #设备设施
 page.entrance_guard = xpath>//div[contains(text(),'设备设施')]
+#基础服务
+page.basic_services = xpath>//div[contains(text(),'基础服务')]
 
 #工作台
 page.workbench = xpath>//*[@id="__next"]/div/div[1]/div[1]/div/span[1]

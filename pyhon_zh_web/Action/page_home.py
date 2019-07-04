@@ -14,3 +14,8 @@ def get_name(driver):
     name =  HP.get_login_name()
     time.sleep(1)
     return name
+
+#进入基础服务
+def page_basic_open(driver):
+    HP = HomePage(driver)
+    HP.open_basic().click()
