@@ -18,11 +18,15 @@ class ParsePageObjectRepository(object):
         return self.cf.get(sectionName,optionName)
 
 if __name__ == '__main__':
-    pp = ParsePageObjectRepository('LoginPageRepository.ini')
-    print(pp.getItemSection('zh_login_page'))
-    print(pp.getOptionValue('zh_login_page','login_page.username'))
+    pp = ParsePageObjectRepository('BasicserverRepository.ini')
+    print(pp.getItemSection('Basic_announcement_home'))
+    print(pp.getOptionValue('Basic_announcement_home','lableprompt1'))
+    basic_announcement = pp.getItemSection('Basic_announcement_home')
 
-# # 'LoginPageRepository.ini'
+    l,h = basic_announcement['lableprompt1'].split('>')
+    print(l)
+    print(h)
+# # 'LoginPageRepository1.ini'  basic_announcement['lableprompt1']
 # /Users/hnbl009/gitfile/webtest/pyhon_zh_web/Action
 
 

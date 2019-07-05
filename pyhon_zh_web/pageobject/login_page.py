@@ -9,7 +9,7 @@ class LoginPage(object):
 
     def __init__(self,driver):
         self.driver = driver
-        self.paser_page_object = ParsePageObjectRepository('LoginPageRepository.ini')
+        self.paser_page_object = ParsePageObjectRepository('LoginPageRepository1.ini')
         self.login_iteim = self.paser_page_object.getItemSection('zh_login_page')
         print(self.login_iteim)
         self.wait = WebDriverWait(self.driver,10,0.5)
@@ -30,6 +30,7 @@ class LoginPage(object):
         locateType,locateExpression = self.login_iteim['login_page.project'].split('>')
         options =  getElement(self.driver,locateType,locateExpression)
         return options
+
     #选择租户--定位元素中通过contains()筛选元素
     def getProjectvalue(self):
         locateType,locateExpression = self.login_iteim['login_page.options'].split('>')

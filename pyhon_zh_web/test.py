@@ -7,7 +7,7 @@
 # 'jsx-3914091371 block display'
 # 'jsx-3914091371 block display'
 # h = "/Users/hnbl009/gitfile/webtest/pyhon_zh_web/Conf/PageobjectRepository"
-# list = h.replace('PageobjectRepository','LoginPageRepository.ini')
+# list = h.replace('PageobjectRepository','LoginPageRepository1.ini')
 # print(list)
 # import unittest
 #
@@ -56,9 +56,13 @@
 #     print(i)  #当前目录路径
 #     print(a)  #当前路径下所有子目录
 #     print(b)  #当前路径下所有非目录子文件
-from selenium import webdriver
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument('--headless')
-driver = webdriver.Chrome(chrome_options=chrome_options)
-driver.get('http://www.baidu.com')
-driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png')
+# from selenium import webdriver
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_argument('--headless')
+# driver = webdriver.Chrome(chrome_options=chrome_options)
+# driver.get('http://www.baidu.com')
+# driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi1.png')
+from configparser import ConfigParser
+conf = ConfigParser()
+conf.read('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/Conf/LoginPageRepository1.ini')       # 文件路径
+name = conf.get('zh_login_page','login_page.username')

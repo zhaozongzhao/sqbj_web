@@ -11,19 +11,19 @@ class BasicPage(object):
         self.driver = driver
         self.paser_page_object = ParsePageObjectRepository('BasicserverRepository.ini')
         self.basic_announcement = self.paser_page_object.getItemSection('Basic_announcement_home')
-        print(self.basic_announcement)
+        print('验证返回信息',self.basic_announcement['announcement.page.communitynotice'].split('>'))
         self.wait = WebDriverWait(self.driver,10,0.5)
 
     #小区信息管理
-    def Getannouncement_page_communityselect(self):
-        locateType, locateExpression = self.basic_announcement['announcement.page.communityselect'].split('>')
+    def Getannouncement_page(self):
+        locateType, locateExpression = self.basic_announcement['announcement.page'].split('>')
         span = getElement(self.driver,locateType,locateExpression)
         return span
 
      #小区公告列表
     def Getannouncement_list(self):
         locateType, locateExpression = self.basic_announcement['announcement.list'].split('>')
-        span = getElements(self.driver,locateType,locateExpression)
+        span = getElement(self.driver,locateType,locateExpression)
         return span
 
      #筛选标签状态
@@ -34,7 +34,9 @@ class BasicPage(object):
 
      #筛选标签状态:温馨提示
     def getannouncement_page_Lableprompt(self):
-        locateType, locateExpression = self.basic_announcement['announcement.page.Lableprompt'].split('>')
+
+        locateType, locateExpression = self.basic_announcement['Lableprompt1'].split('>')
+        print('验证信息',locateType,locateExpression)
         span = getElement(self.driver,locateType,locateExpression)
         return span
 
