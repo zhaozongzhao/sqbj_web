@@ -7,7 +7,6 @@ class ParsePageObjectRepository(object):
     def __init__(self,pathfile):
         self.cf = ConfigParser() #生成解析器
         self.path = PaserPageObject_path.replace('PageObjectRepository',pathfile)
-        print('配置文件地址',self.path)
         self.cf.read(self.path,encoding='UTF8') #直接用变量代替
 
 

@@ -62,7 +62,13 @@
 # driver = webdriver.Chrome(chrome_options=chrome_options)
 # driver.get('http://www.baidu.com')
 # driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi1.png')
-from configparser import ConfigParser
-conf = ConfigParser()
-conf.read('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/Conf/LoginPageRepository1.ini')       # 文件路径
-name = conf.get('zh_login_page','login_page.username')
+# from configparser import ConfigParser
+# conf = ConfigParser()
+# conf.read('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/Conf/LoginPageRepository1.ini')       # 文件路径
+# name = conf.get('zh_login_page','login_page.username')
+# dict = {'announcement.page': "xpath>//span[contains(text(),'小区信息管理')]", 'announcement.list': 'xpath>//*[@id="0$Menu"]/li[1]', 'announcement.analysis': "xpath>//span[contains(text(),'公告分析')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'announcement.page.communityselect': 'xpath>//li[@role="option"]', 'lableprompt1': "xpath>//li[contains(text(),'温馨提示')]", 'announcement.page.communitynotice': "xpath>//li[contains(text(),'紧急通知')]", 'announcement.page.communitypropaganda': "xpath>//li[contains(text(),'小区宣传')]", 'announcement.page,lableinput': 'xpath>//input[@placeholder="请输入标题内容"]', 'add_announcement_button': "xpath>//span[contains(text(),'新建公告')]/..", 'add_announcement_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_announcement_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_announcement': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'add_announcement_inputcover': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[4]/div[2]/div/span/div/span/div[2]/span', 'add_announcement_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'save_announcement': "xpath>//span[contains(text(),'保 存')]/..", 'preview_announcement': "xpath>//button/span[contains(text(),'预 览')]", 'release_announcement': "xpath>//button/span[contains(text(),'发 布')]", 'cancel_announcement': "xpath>//button/span[contains(text(),'取 消')]"}
+# print(dict['lableprompt1'])
+i=0
+while False :
+           i=i+1
+           print(i)
