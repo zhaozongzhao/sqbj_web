@@ -1,6 +1,5 @@
 {
   "test_basic_announcement.py::test_basic::test_creadeannouncement": true,
-  "test_basic_announcement.py::test_basic::test_releaseannouncement1": true,
   "test_login.py::Test_login": true,
   "test_login.py::Test_login::test_login_passworderror": true,
   "test_login.py::Test_login::test_login_true": true,

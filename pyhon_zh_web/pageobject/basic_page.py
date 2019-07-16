@@ -115,3 +115,8 @@ class BasicPage(object):
         Loadlbutton= getElements(self.driver,locateType,locateExpression)
         return Loadlbutton[2]
 
+    #获取
+    def get_table_announcement(self):
+          locateType, locateExpression = self.basic_announcement['announcement_table'].split('>')
+          Loadlbutton= getElement(self.driver,locateType,locateExpression)
+          return Loadlbutton
