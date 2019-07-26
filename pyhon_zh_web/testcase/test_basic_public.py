@@ -25,46 +25,52 @@ class test_basic(unittest.TestCase):
         return Ba
 
 
-    #创建公告(紧急通知)
-    def test_creadeannouncement1(self):
+    #创建公示(资质公示)
+    def test_creadepublic1(self):
         # self.driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png')
         Ba = self.successful()
         coverpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png'
         contentpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png'
-        Ba.cread_announcement('自动创建的标题名称1','紧急通知','自动创建的内容',coverpicture,contentpicture)
-        assert '自动创建的标题名称1' in Ba.select_table_element(4,1,0).text
-        self.driver.get_screenshot_as_file()
+        Ba.create_public('自动创建资质公示1','赵宗召','资质公示','自动创建的内容',coverpicture,contentpicture,'新建资质公示')
+        assert '自动创建资质公示1' in Ba.select_table_element(1,1,0).text
 
-
-    #创建公告(小区宣传)
-    def test_creadeannouncement2(self):
+    #创建公示(物业服务)
+    def test_creadepublic2(self):
         # self.driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png')
         Ba = self.successful()
         coverpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png'
         contentpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png'
-        Ba.cread_announcement('自动创建的标题名称2','小区宣传','自动创建的内容',coverpicture,contentpicture)
-        time.sleep(2)
-        self.assertIn('自动创建的标题名称2' , Ba.select_table_element(4,1,0).text)
+        Ba.create_public('自动创建物业服务1','赵宗召','物业服务','自动创建的内容',coverpicture,contentpicture,'物业服务')
+        assert '自动创建物业服务1' in Ba.select_table_element(1,1,0).text
 
-    #创建公告(温馨提示)
-    def test_creadeannouncement3(self):
+    #创建公示(收费标准)
+    def test_creadepublic3(self):
         # self.driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png')
         Ba = self.successful()
         coverpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png'
         contentpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png'
-        Ba.cread_announcement('自动创建的标题名称3','温馨提示','自动创建的内容',coverpicture,contentpicture)
-        self.assertIn('自动创建的标题名称3' , Ba.select_table_element(4,1,0).text)
+        Ba.create_public('自动创建收费标准1','赵宗召','收费标准','自动创建的内容',coverpicture,contentpicture,'收费标准')
+        assert '自动创建收费标准1' in Ba.select_table_element(1,1,0).text
 
-    #创建发布公告:
-    def test_releaseannouncement1(self):
+    #创建公示(设置运行公示)
+    def test_creadepublic4(self):
         # self.driver.save_screenshot('/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png')
         Ba = self.successful()
         coverpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png'
         contentpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png'
-        Ba.release_announcement('自动发布公告验证1','温馨提示','自动发布的内容测试/n/t 测试换行',coverpicture,contentpicture)
-        self.assertIn('自动发布公告验证1',Ba.select_table_element(4,1,0).text)
+        Ba.create_public('自动创建设置运行公示1','赵宗召','设备运行公示','自动创建的内容',coverpicture,contentpicture,'设置运行公示')
+        assert '自动创建设置运行公示1' in Ba.select_table_element(1,1,0).text
+
+
+    #发布服务公示
+    def test_release_public1(self):
+        Ba = self.successful()
+        coverpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/1.png'
+        contentpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png'
+        Ba.release_public('发布公示1','赵宗召','设备运行公示','自动创建的内容',coverpicture,contentpicture)
+        assert '发布公示1' in Ba.select_table_element(1,1,0).text
+
 
     def tearDown(self):
         self.driver.close()
         self.driver.quit()
-

@@ -18,11 +18,12 @@ class ParsePageObjectRepository(object):
 
 if __name__ == '__main__':
     pp = ParsePageObjectRepository('BasicserverRepository.ini')
-    print(pp.getItemSection('Basic_announcement_home'))
-    print(pp.getOptionValue('Basic_announcement_home','lableprompt1'))
-    basic_announcement = pp.getItemSection('Basic_announcement_home')
-
-    l,h = basic_announcement['lableprompt1'].split('>')
+    # print(pp.getItemSection('Basic_Of_the_public'))
+    # print(pp.getOptionValue('Basic_Of_the_public','add_public_button'))
+    basic_announcement = pp.getItemSection('Basic_Of_the_public')
+    print(basic_announcement)
+    s= basic_announcement['public_lableprompt1']
+    l,h = s.split('>')
     print(l)
     print(h)
 # # 'LoginPageRepository1.ini'  basic_announcement['lableprompt1']

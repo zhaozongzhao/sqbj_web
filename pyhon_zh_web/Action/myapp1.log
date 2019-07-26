@@ -631,3 +631,443 @@ Tue, 16 Jul 2019 17:16:57 log.py[line:22] INFO 定位类型xpath,定位地址//i
 Tue, 16 Jul 2019 17:16:59 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
 Tue, 16 Jul 2019 17:17:05 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
 Tue, 16 Jul 2019 17:17:10 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'发 布')]/..
+Wed, 24 Jul 2019 18:36:35 log.py[line:22] INFO 验证测试数据哈哈哈
+Wed, 24 Jul 2019 18:36:45 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Wed, 24 Jul 2019 18:36:45 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Wed, 24 Jul 2019 18:36:46 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Wed, 24 Jul 2019 18:36:46 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Wed, 24 Jul 2019 18:36:50 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Wed, 24 Jul 2019 18:36:53 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Wed, 24 Jul 2019 18:36:55 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签小区活动  内容自动发布的内容测试/n/t 测试换行
+Wed, 24 Jul 2019 18:36:55 log.py[line:22] INFO 返回配置的元素定位信息{'announcement.page': "xpath>//span[contains(text(),'小区信息管理')]", 'announcement.list': 'xpath>//*[@id="0$Menu"]/li[1]', 'announcement.analysis': "xpath>//span[contains(text(),'公告分析')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'announcement.page.communityselect': 'xpath>//li[@role="option"]', 'lableprompt1': "xpath>//li[contains(text(),'温馨提示')]", 'announcement.page.communitynotice': "xpath>//li[contains(text(),'紧急通知')]", 'announcement.page.communitypropaganda': "xpath>//li[contains(text(),'小区宣传')]", 'announcement.page.communityactivity': "xpath>//li[contains(text(),'小区活动')]", 'announcement.page,lableinput': 'xpath>//input[@placeholder="请输入标题内容"]', 'add_announcement_button': "xpath>//span[contains(text(),'新建公告')]/..", 'add_announcement_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_announcement_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_announcement': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'add_announcement_inputcover': 'xpath>//input[@type="file"]', 'add_announcement_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'save_announcement': "xpath>//span[contains(text(),'保 存')]/..", 'preview_announcement': "xpath>//span[contains(text(),'预 览')]/..", 'return_announcement': 'xpath>//html/body/div[2]/div/div[2]/div/div[2]/button', 'release_announcement': "xpath>//span[contains(text(),'发 布')]/..", 'cancel_announcement': "xpath>//span[contains(text(),'取 消')]/..", 'announcement_table': 'xpath>//table/tbody'}
+Wed, 24 Jul 2019 18:36:55 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Wed, 24 Jul 2019 18:38:03 log.py[line:22] INFO 验证测试数据哈哈哈
+Wed, 24 Jul 2019 18:38:09 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Wed, 24 Jul 2019 18:38:09 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Wed, 24 Jul 2019 18:38:09 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Wed, 24 Jul 2019 18:38:10 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Wed, 24 Jul 2019 18:38:13 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Wed, 24 Jul 2019 18:38:16 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Wed, 24 Jul 2019 18:38:18 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签小区活动  内容自动发布的内容测试/n/t 测试换行
+Wed, 24 Jul 2019 18:38:18 log.py[line:22] INFO 返回配置的元素定位信息{'announcement.page': "xpath>//span[contains(text(),'小区信息管理')]", 'announcement.list': 'xpath>//*[@id="0$Menu"]/li[1]', 'announcement.analysis': "xpath>//span[contains(text(),'公告分析')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'announcement.page.communityselect': 'xpath>//li[@role="option"]', 'lableprompt1': "xpath>//li[contains(text(),'温馨提示')]", 'announcement.page.communitynotice': "xpath>//li[contains(text(),'紧急通知')]", 'announcement.page.communitypropaganda': "xpath>//li[contains(text(),'小区宣传')]", 'announcement.page.communityactivity': "xpath>//li[contains(text(),'小区活动')]", 'announcement.page,lableinput': 'xpath>//input[@placeholder="请输入标题内容"]', 'add_announcement_button': "xpath>//span[contains(text(),'新建公告')]/..", 'add_announcement_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_announcement_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_announcement': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'add_announcement_inputcover': 'xpath>//input[@type="file"]', 'add_announcement_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'save_announcement': "xpath>//span[contains(text(),'保 存')]/..", 'preview_announcement': "xpath>//span[contains(text(),'预 览')]/..", 'return_announcement': 'xpath>//html/body/div[2]/div/div[2]/div/div[2]/button', 'release_announcement': "xpath>//span[contains(text(),'发 布')]/..", 'cancel_announcement': "xpath>//span[contains(text(),'取 消')]/..", 'announcement_table': 'xpath>//table/tbody'}
+Wed, 24 Jul 2019 18:38:18 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Wed, 24 Jul 2019 18:39:23 log.py[line:22] INFO 验证测试数据哈哈哈
+Wed, 24 Jul 2019 18:39:31 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Wed, 24 Jul 2019 18:39:31 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Wed, 24 Jul 2019 18:39:31 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Wed, 24 Jul 2019 18:39:32 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Wed, 24 Jul 2019 18:39:35 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Wed, 24 Jul 2019 18:39:38 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Wed, 24 Jul 2019 18:39:41 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签小区活动  内容自动发布的内容测试/n/t 测试换行
+Wed, 24 Jul 2019 18:39:41 log.py[line:22] INFO 返回配置的元素定位信息{'announcement.page': "xpath>//span[contains(text(),'小区信息管理')]", 'announcement.list': 'xpath>//*[@id="0$Menu"]/li[1]', 'announcement.analysis': "xpath>//span[contains(text(),'公告分析')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'announcement.page.communityselect': 'xpath>//li[@role="option"]', 'lableprompt1': "xpath>//li[contains(text(),'温馨提示')]", 'announcement.page.communitynotice': "xpath>//li[contains(text(),'紧急通知')]", 'announcement.page.communitypropaganda': "xpath>//li[contains(text(),'小区宣传')]", 'announcement.page.communityactivity': "xpath>//li[contains(text(),'小区活动')]", 'announcement.page,lableinput': 'xpath>//input[@placeholder="请输入标题内容"]', 'add_announcement_button': "xpath>//span[contains(text(),'新建公告')]/..", 'add_announcement_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_announcement_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_announcement': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'add_announcement_inputcover': 'xpath>//input[@type="file"]', 'add_announcement_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'save_announcement': "xpath>//span[contains(text(),'保 存')]/..", 'preview_announcement': "xpath>//span[contains(text(),'预 览')]/..", 'return_announcement': 'xpath>//html/body/div[2]/div/div[2]/div/div[2]/button', 'release_announcement': "xpath>//span[contains(text(),'发 布')]/..", 'cancel_announcement': "xpath>//span[contains(text(),'取 消')]/..", 'announcement_table': 'xpath>//table/tbody'}
+Wed, 24 Jul 2019 18:39:41 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Wed, 24 Jul 2019 18:39:42 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Wed, 24 Jul 2019 18:39:42 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'新建公告')]/..
+Wed, 24 Jul 2019 18:39:51 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Wed, 24 Jul 2019 18:39:53 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Wed, 24 Jul 2019 18:39:53 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Wed, 24 Jul 2019 18:39:53 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Wed, 24 Jul 2019 18:39:54 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Wed, 24 Jul 2019 18:39:57 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'发 布')]/..
+Wed, 24 Jul 2019 18:41:55 log.py[line:22] INFO 验证测试数据哈哈哈
+Wed, 24 Jul 2019 18:42:01 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Wed, 24 Jul 2019 18:42:01 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Wed, 24 Jul 2019 18:42:01 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Wed, 24 Jul 2019 18:42:07 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Wed, 24 Jul 2019 18:42:15 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Wed, 24 Jul 2019 18:42:23 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Wed, 24 Jul 2019 18:42:26 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签小区活动  内容自动发布的内容测试/n/t 测试换行
+Wed, 24 Jul 2019 18:42:26 log.py[line:22] INFO 返回配置的元素定位信息{'announcement.page': "xpath>//span[contains(text(),'小区信息管理')]", 'announcement.list': 'xpath>//*[@id="0$Menu"]/li[1]', 'announcement.analysis': "xpath>//span[contains(text(),'公告分析')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'announcement.page.communityselect': 'xpath>//li[@role="option"]', 'lableprompt1': "xpath>//li[contains(text(),'温馨提示')]", 'announcement.page.communitynotice': "xpath>//li[contains(text(),'紧急通知')]", 'announcement.page.communitypropaganda': "xpath>//li[contains(text(),'小区宣传')]", 'announcement.page.communityactivity': "xpath>//li[contains(text(),'小区活动')]", 'announcement.page,lableinput': 'xpath>//input[@placeholder="请输入标题内容"]', 'add_announcement_button': "xpath>//span[contains(text(),'新建公告')]/..", 'add_announcement_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_announcement_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_announcement': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'add_announcement_inputcover': 'xpath>//input[@type="file"]', 'add_announcement_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'save_announcement': "xpath>//span[contains(text(),'保 存')]/..", 'preview_announcement': "xpath>//span[contains(text(),'预 览')]/..", 'return_announcement': 'xpath>//html/body/div[2]/div/div[2]/div/div[2]/button', 'release_announcement': "xpath>//span[contains(text(),'发 布')]/..", 'cancel_announcement': "xpath>//span[contains(text(),'取 消')]/..", 'announcement_table': 'xpath>//table/tbody'}
+Wed, 24 Jul 2019 18:42:26 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Wed, 24 Jul 2019 18:42:27 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Wed, 24 Jul 2019 18:42:27 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'新建公告')]/..
+Wed, 24 Jul 2019 18:42:56 log.py[line:22] INFO 验证测试数据哈哈哈
+Wed, 24 Jul 2019 18:43:02 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Wed, 24 Jul 2019 18:43:02 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Wed, 24 Jul 2019 18:43:03 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Wed, 24 Jul 2019 18:43:03 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Wed, 24 Jul 2019 18:43:06 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Wed, 24 Jul 2019 18:43:09 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Wed, 24 Jul 2019 18:43:12 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签小区活动  内容自动发布的内容测试/n/t 测试换行
+Wed, 24 Jul 2019 18:43:12 log.py[line:22] INFO 返回配置的元素定位信息{'announcement.page': "xpath>//span[contains(text(),'小区信息管理')]", 'announcement.list': 'xpath>//*[@id="0$Menu"]/li[1]', 'announcement.analysis': "xpath>//span[contains(text(),'公告分析')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'announcement.page.communityselect': 'xpath>//li[@role="option"]', 'lableprompt1': "xpath>//li[contains(text(),'温馨提示')]", 'announcement.page.communitynotice': "xpath>//li[contains(text(),'紧急通知')]", 'announcement.page.communitypropaganda': "xpath>//li[contains(text(),'小区宣传')]", 'announcement.page.communityactivity': "xpath>//li[contains(text(),'小区活动')]", 'announcement.page,lableinput': 'xpath>//input[@placeholder="请输入标题内容"]', 'add_announcement_button': "xpath>//span[contains(text(),'新建公告')]/..", 'add_announcement_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_announcement_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_announcement': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'add_announcement_inputcover': 'xpath>//input[@type="file"]', 'add_announcement_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'save_announcement': "xpath>//span[contains(text(),'保 存')]/..", 'preview_announcement': "xpath>//span[contains(text(),'预 览')]/..", 'return_announcement': 'xpath>//html/body/div[2]/div/div[2]/div/div[2]/button', 'release_announcement': "xpath>//span[contains(text(),'发 布')]/..", 'cancel_announcement': "xpath>//span[contains(text(),'取 消')]/..", 'announcement_table': 'xpath>//table/tbody'}
+Wed, 24 Jul 2019 18:43:12 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Wed, 24 Jul 2019 18:43:13 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="0$Menu"]/li[1]
+Wed, 24 Jul 2019 18:43:13 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'新建公告')]/..
+Wed, 24 Jul 2019 18:43:14 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Wed, 24 Jul 2019 18:43:15 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Wed, 24 Jul 2019 18:43:15 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Wed, 24 Jul 2019 18:43:15 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Wed, 24 Jul 2019 18:43:16 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Wed, 24 Jul 2019 18:43:19 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'发 布')]/..
+Wed, 24 Jul 2019 18:43:23 log.py[line:22] INFO 创建完成任务自动发布服务公示
+Fri, 26 Jul 2019 10:52:19 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 10:52:27 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 10:52:27 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 10:52:28 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 10:52:28 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 10:52:31 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 10:52:35 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 10:53:25 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 10:53:30 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 10:53:30 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 10:53:30 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 10:53:31 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 10:53:34 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 10:53:37 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 10:53:40 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 10:53:40 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 10:53:40 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 10:53:41 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 10:59:04 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 10:59:10 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 10:59:10 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 10:59:11 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 10:59:11 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 10:59:15 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 10:59:18 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 10:59:22 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 10:59:22 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 10:59:22 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 10:59:24 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:02:42 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:02:48 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:02:48 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:02:48 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:02:49 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:02:52 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:02:55 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:02:57 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 11:02:57 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:02:57 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:02:59 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:02:59 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/..
+Fri, 26 Jul 2019 11:02:59 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:04:13 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:04:19 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:04:19 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:04:19 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:04:20 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:04:23 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:04:26 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:04:29 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 11:04:29 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:04:29 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:04:30 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:04:30 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/..
+Fri, 26 Jul 2019 11:04:31 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:04:37 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:04:37 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:08:12 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:08:18 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:08:18 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:08:18 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:08:19 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:08:22 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:08:25 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:08:27 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 11:08:27 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:08:27 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:08:29 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:08:29 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/..
+Fri, 26 Jul 2019 11:20:59 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:21:07 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:21:08 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:21:08 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:21:08 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:21:12 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:21:15 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:21:19 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 11:21:19 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:21:19 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:21:20 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:21:21 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:21:42 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:21:48 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:21:49 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:21:49 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:21:50 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:21:53 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:21:56 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:21:58 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 11:21:58 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:21:58 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:22:03 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:22:04 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:22:04 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:22:05 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:22:05 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:22:30 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:22:37 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:22:37 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:22:37 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:22:38 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:22:41 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:22:44 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:22:49 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容收费标准
+Fri, 26 Jul 2019 11:22:49 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:22:49 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:22:50 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:22:51 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:22:51 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:22:53 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:22:53 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:22:53 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费标准')]
+Fri, 26 Jul 2019 11:24:10 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:24:16 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:24:17 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:24:17 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:24:17 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:24:20 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:24:24 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:24:28 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 11:24:28 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:24:28 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:24:29 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:24:30 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:24:30 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:24:31 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:24:32 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:25:18 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:25:26 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:25:26 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:25:26 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:25:27 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:25:30 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:25:33 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:25:39 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 11:25:39 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:25:39 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:25:40 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:26:13 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:26:20 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:26:22 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:26:25 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:30:36 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:30:42 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:30:43 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:30:43 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:30:44 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:30:47 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:30:50 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:30:54 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 11:30:54 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:30:54 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:30:55 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:31:03 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:31:16 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:31:32 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:31:34 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 11:39:35 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 11:39:41 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 11:39:41 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 11:39:41 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 11:39:42 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 11:39:45 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 11:39:48 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 11:39:51 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 11:39:51 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/.."}
+Fri, 26 Jul 2019 11:39:51 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 11:39:52 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 11:39:52 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 11:39:53 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 11:39:54 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 11:39:54 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 11:39:54 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'资质公示')]
+Fri, 26 Jul 2019 11:39:56 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 11:39:56 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Fri, 26 Jul 2019 11:39:56 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 11:40:00 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'发 布')]/..
+Fri, 26 Jul 2019 11:40:00 log.py[line:22] INFO 创建完成任务自动发布服务公示
+Fri, 26 Jul 2019 14:44:33 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 14:44:41 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 14:44:41 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 14:44:42 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 14:44:42 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 14:44:46 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 14:44:49 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 14:44:51 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 14:44:51 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span'}
+Fri, 26 Jul 2019 14:44:51 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 14:44:52 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 14:44:53 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 14:44:53 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 14:44:55 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 14:44:55 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 14:44:55 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'资质公示')]
+Fri, 26 Jul 2019 14:44:56 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:44:56 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Fri, 26 Jul 2019 14:44:57 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:45:45 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 14:45:53 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 14:45:53 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 14:45:53 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 14:45:54 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 14:45:58 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 14:46:01 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 14:46:04 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 14:46:04 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span'}
+Fri, 26 Jul 2019 14:46:04 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 14:46:05 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 14:46:06 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 14:46:06 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 14:46:07 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 14:46:08 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 14:46:08 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'资质公示')]
+Fri, 26 Jul 2019 14:46:09 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:46:09 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Fri, 26 Jul 2019 14:46:11 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:46:13 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'预 览')]/..
+Fri, 26 Jul 2019 14:52:22 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 14:52:28 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 14:52:29 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 14:52:29 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 14:52:30 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 14:52:33 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 14:52:36 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 14:52:38 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示   标签发布人  内容资质公示
+Fri, 26 Jul 2019 14:52:38 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span'}
+Fri, 26 Jul 2019 14:52:38 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 14:52:40 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 14:52:40 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 14:52:41 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 14:52:42 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 14:52:42 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 14:52:42 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'资质公示')]
+Fri, 26 Jul 2019 14:52:44 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:52:44 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Fri, 26 Jul 2019 14:52:45 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:52:47 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'预 览')]/..
+Fri, 26 Jul 2019 14:52:48 log.py[line:22] INFO 定位类型xpath,定位地址//html/body/div[3]/div/div[2]/div/div[2]/button/span
+Fri, 26 Jul 2019 14:52:49 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'保 存')]/..
+Fri, 26 Jul 2019 14:52:49 log.py[line:22] INFO 创建完成任务自动发布服务公示
+Fri, 26 Jul 2019 14:55:19 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 14:55:25 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 14:55:25 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 14:55:25 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 14:55:26 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 14:55:29 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 14:55:32 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 14:55:34 log.py[line:22] INFO 输入的测试数据:  标题自动发布服务公示2   标签发布人  内容资质公示
+Fri, 26 Jul 2019 14:55:34 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span'}
+Fri, 26 Jul 2019 14:55:34 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 14:55:35 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 14:55:36 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 14:55:37 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 14:55:38 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 14:55:38 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 14:55:38 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'资质公示')]
+Fri, 26 Jul 2019 14:55:39 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:55:40 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Fri, 26 Jul 2019 14:55:41 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 14:55:43 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'预 览')]/..
+Fri, 26 Jul 2019 14:55:44 log.py[line:22] INFO 定位类型xpath,定位地址//html/body/div[3]/div/div[2]/div/div[2]/button/span
+Fri, 26 Jul 2019 14:55:46 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'保 存')]/..
+Fri, 26 Jul 2019 14:55:46 log.py[line:22] INFO 创建完成任务自动发布服务公示2
+Fri, 26 Jul 2019 16:19:46 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 16:19:51 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 16:19:52 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 16:19:52 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 16:19:52 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 16:19:56 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 16:19:59 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 16:20:01 log.py[line:22] INFO 输入的测试数据:  标题自动发布设备运行公示   标签发布人  内容设备运行公示
+Fri, 26 Jul 2019 16:20:01 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span'}
+Fri, 26 Jul 2019 16:20:01 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 16:20:02 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 16:20:03 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示')]/preceding-sibling::i/..
+Fri, 26 Jul 2019 16:20:03 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入标题"]
+Fri, 26 Jul 2019 16:20:05 log.py[line:22] INFO 定位类型xpath,定位地址//input[@placeholder="请输入发布方"]
+Fri, 26 Jul 2019 16:20:05 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div
+Fri, 26 Jul 2019 16:20:05 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'设备运行公示')]
+Fri, 26 Jul 2019 16:20:05 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 16:20:05 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div
+Fri, 26 Jul 2019 16:20:06 log.py[line:22] INFO 定位类型xpath,定位地址//input[@type="file"]
+Fri, 26 Jul 2019 16:20:08 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'预 览')]/..
+Fri, 26 Jul 2019 16:20:09 log.py[line:22] INFO 定位类型xpath,定位地址//html/body/div[3]/div/div[2]/div/div[2]/button/span
+Fri, 26 Jul 2019 16:20:12 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'保 存')]/..
+Fri, 26 Jul 2019 16:20:12 log.py[line:22] INFO 创建完成任务自动发布设备运行公示
+Fri, 26 Jul 2019 18:05:31 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:05:39 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:05:39 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:05:39 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:05:40 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:05:43 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:05:46 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:05:49 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:05:49 log.py[line:22] INFO 输入的测试数据:  第1行   第6列  
+Fri, 26 Jul 2019 18:05:49 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:05:49 log.py[line:22] INFO 定位类型xpath,定位地址//table/tbody
+Fri, 26 Jul 2019 18:07:22 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:07:28 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:07:28 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:07:29 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:07:29 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:07:32 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:07:35 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:07:37 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:07:37 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 18:07:38 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 18:07:39 log.py[line:22] INFO 输入的测试数据:  第1行   第5列  
+Fri, 26 Jul 2019 18:07:39 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:07:39 log.py[line:22] INFO 定位类型xpath,定位地址//table/tbody
+Fri, 26 Jul 2019 18:09:17 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:10:02 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:10:02 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:10:02 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:10:03 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:10:06 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:10:12 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:10:22 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:10:24 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 18:10:28 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 18:10:40 log.py[line:22] INFO 输入的测试数据:  第1行   第6列  
+Fri, 26 Jul 2019 18:10:42 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:10:44 log.py[line:22] INFO 定位类型xpath,定位地址//table/tbody
+Fri, 26 Jul 2019 18:17:52 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:17:58 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:17:58 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:17:59 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:17:59 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:18:03 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:18:06 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:18:08 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:18:08 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 18:18:09 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 18:18:10 log.py[line:22] INFO 输入的测试数据:  第1行   第6列  
+Fri, 26 Jul 2019 18:18:10 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:18:10 log.py[line:22] INFO 定位类型xpath,定位地址//table/tbody
+Fri, 26 Jul 2019 18:27:39 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:27:47 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:27:47 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:27:48 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:27:48 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:27:51 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:27:55 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:27:58 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:27:58 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 18:27:59 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 18:28:00 log.py[line:22] INFO 输入的测试数据:  第1行   第6列  
+Fri, 26 Jul 2019 18:28:00 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:28:00 log.py[line:22] INFO 定位类型xpath,定位地址//table/tbody
+Fri, 26 Jul 2019 18:29:51 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:29:58 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:29:58 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:29:58 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:29:59 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:30:02 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:30:05 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:30:06 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:30:06 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 18:30:27 log.py[line:22] INFO 验证测试数据哈哈哈
+Fri, 26 Jul 2019 18:30:32 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[1]/div/div/span/span/input
+Fri, 26 Jul 2019 18:30:32 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[2]/div/div/span/span/input
+Fri, 26 Jul 2019 18:30:33 log.py[line:22] INFO 定位类型xpath,定位地址//*[@id="root"]/div/div[2]/div[2]/div[2]/form/div[3]/div/div/span/div/div/div
+Fri, 26 Jul 2019 18:30:33 log.py[line:22] INFO 定位类型xpath,定位地址//li[contains(text(),'收费大屏')]
+Fri, 26 Jul 2019 18:30:36 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'登 录')]/..
+Fri, 26 Jul 2019 18:30:39 log.py[line:22] INFO 定位类型xpath,定位地址//div[contains(text(),'基础服务')]
+Fri, 26 Jul 2019 18:30:41 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:30:41 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'小区信息管理')]
+Fri, 26 Jul 2019 18:30:42 log.py[line:22] INFO 定位类型xpath,定位地址//span[contains(text(),'服务公示列表')]
+Fri, 26 Jul 2019 18:30:43 log.py[line:22] INFO 输入的测试数据:  第1行   第6列  
+Fri, 26 Jul 2019 18:30:43 log.py[line:22] INFO 返回配置的元素定位信息{'public.page': "xpath>//span[contains(text(),'小区信息管理')]", 'public.list': "xpath>//span[contains(text(),'服务公示列表')]", 'public.page.communityselect': 'xpath>//li[@role="option"]', 'add_public_button': "xpath>//span[contains(text(),'服务公示')]/preceding-sibling::i/..", 'add_public_inputlable': 'xpath>//input[@placeholder="请输入标题"]', 'add_public_inputissuer': 'xpath>//input[@placeholder="请输入发布方"]', 'set_lable_public': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div/span/div/div', 'public_lableprompt1': "xpath>//li[contains(text(),'资质公示')]", 'public.page.communitynotice': "xpath>//li[contains(text(),'物业服务')]", 'public.page.communitypropaganda': "xpath>//li[contains(text(),'收费标准')]", 'public.page.communityactivity': "xpath>//li[contains(text(),'设备运行公示')]", 'add_public_inputcover': 'xpath>//input[@type="file"]', 'add_public_div': 'xpath>//*[@id="layout"]/div/div/div/div[2]/div[1]/form/div[7]/div[2]/div/span/div/div/div[2]/div/div/div', 'release_public': "xpath>//span[contains(text(),'发 布')]/..", 'create_save_public': "xpath>//span[contains(text(),'保 存')]/..", 'preview_button': "xpath>//span[contains(text(),'预 览')]/..", 'close_preview_button': 'xpath>//html/body/div[3]/div/div[2]/div/div[2]/button/span', 'public_table': 'xpath>//table/tbody', 'delete_button': "//a[contains(text(),'删除')]"}
+Fri, 26 Jul 2019 18:30:43 log.py[line:22] INFO 定位类型xpath,定位地址//table/tbody
