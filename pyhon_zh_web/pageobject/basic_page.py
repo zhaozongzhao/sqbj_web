@@ -8,12 +8,16 @@ from Util.Table import Table
 
 
 class Basic_announcement_Page(object):
+    '''
+    小区公告列表
+
+    '''
 
     def __init__(self,driver):
         self.driver = driver
         self.paser_page_object = ParsePageObjectRepository('BasicserverRepository.ini')
         self.basic_announcement = self.paser_page_object.getItemSection('Basic_announcement_home')
-        info('返回配置的元素定位信息{}'.format(self.basic_announcement))
+        # info('返回配置的元素定位信息{}'.format(self.basic_announcement))
         self.wait = WebDriverWait(self.driver,10,0.5)
 
     #小区信息管理
@@ -128,8 +132,13 @@ class Basic_announcement_Page(object):
 
 #服务公示
 class Basic_public_Page(object):
+     '''
+     服务公示列表
 
-    #获取配置文件中的元素定位信息
+      '''
+
+
+     #获取配置文件中的元素定位信息
      def __init__(self,driver):
         self.driver = driver
         self.paser_page_object = ParsePageObjectRepository('BasicserverRepository.ini')
@@ -138,7 +147,9 @@ class Basic_public_Page(object):
         self.wait = WebDriverWait(self.driver,10,0.5)
 
 
-      #小区信息管理
+
+
+     #小区信息管理
      def Get_public_page(self):
         locateType, locateExpression = self.basic_announcement['public.page'].split('>')
         span = getElement(self.driver,locateType,locateExpression)
@@ -158,19 +169,19 @@ class Basic_public_Page(object):
         return span
 
 
-      #筛选标签状态:物业服务
+     #筛选标签状态:物业服务
      def getpublic_page_ommunitynotice(self):
         locateType, locateExpression = self.basic_announcement['public.page.communitynotice'].split('>')
         span = getElement(self.driver,locateType,locateExpression)
         return span
 
-      #筛选标签状态:收费标准
+     #筛选标签状态:收费标准
      def getpublic_page_communitypropaganda(self):
         locateType, locateExpression = self.basic_announcement['public.page.communitypropaganda'].split('>')
         span = getElement(self.driver,locateType,locateExpression)
         return span
 
-      #筛选标签状态:设备运行公示
+     #筛选标签状态:设备运行公示
      def getpublic_page_communityactivity(self):
         locateType, locateExpression = self.basic_announcement['public.page.communityactivity'].split('>')
         span = getElement(self.driver,locateType,locateExpression)
@@ -247,6 +258,8 @@ class Basic_public_Page(object):
           Loadlbutton= getElement(self.driver,locateType,locateExpression)
           return Loadlbutton
 
+
+
      #定位发布按钮
      def release_public(self):
         locateType, locateExpression = self.basic_announcement['release_public'].split('>')
@@ -294,6 +307,80 @@ class Basic_public_Page(object):
          webtable= Table(BSpage.get_public_table())
          button = webtable.getWebElementInCell(tr,td,'xpath',"//a[contains(text(),'删除')]")
          return button
+
+     #点击弹出提示页面上的确认按钮
+     def button_delete_determine(self):
+         info('选择确认')
+         locateType, locateExpression = self.basic_announcement['determine_button'].split('>')
+         Loadlbutton= getElement(self.driver,locateType,locateExpression)
+         return Loadlbutton
+
+     #点击弹出提示页面上的取消按钮
+     def button_delete_cancel(self):
+         info('选择取消')
+         locateType, locateExpression = self.basic_announcement['cancel_button'].split('>')
+         Loadlbutton= getElement(self.driver,locateType,locateExpression)
+         return Loadlbutton
+
+
+     '''
+     列表页筛选功能
+     '''
+     #返回列表页标签筛选框
+     def slect_lable_public(self):
+         locateType, locateExpression = self.basic_announcement['slect_lable_public'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+     #定位标签选项(资质公示)
+     def selectpublic_Lableprompt1(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_Lableprompt1'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+
+       #定位标签选项(物业服务)
+     def selectpublic_page_communitynotice(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_page_communitynotice'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+      #定位标签选项(收费标准)
+     def selectpublic_page_communitypropaganda(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_page_communitypropaganda'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+
+     #定位标签选项(收费标准)
+     def selectpublic_page_communityactivity(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_page_communityactivity'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+
+     #定位筛选状态按钮(未发布)
+     def selectpublic_type1_loable(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_type1_loable'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+     #定位筛选状态按钮(已发布)
+     def selectpublic_type2_loable(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_type2_loable'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+
+     #定位筛选状态按钮(已删除)
+     def selectpublic_type2_loable(self):
+         locateType, locateExpression = self.basic_announcement['selectpublic_type3_loable'].split('>')
+         divseleinput= getElement(self.driver,locateType,locateExpression)
+         return divseleinput
+
+
+
+
 
 
 

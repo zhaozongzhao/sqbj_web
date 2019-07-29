@@ -33,7 +33,7 @@ class test_basic(unittest.TestCase):
         contentpicture = '/Users/hnbl009/gitfile/webtest/pyhon_zh_web/logs/ceshi.png'
         Ba.cread_announcement('自动创建的标题名称1','紧急通知','自动创建的内容',coverpicture,contentpicture)
         assert '自动创建的标题名称1' in Ba.select_table_element(4,1,0).text
-        self.driver.get_screenshot_as_file()
+
 
 
     #创建公告(小区宣传)
