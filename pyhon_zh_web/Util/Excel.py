@@ -86,7 +86,7 @@ class parseExcel(object):
     def save_ecxel_file(self):
         self.workbook.save(self.excelpath)
 
-    #将列表中的数据以列表的形式返回
+    #将列表中的数据以字典的形式返回
     def get_caseDatas_all(self):
         all_case_datas = []
         for index in range(2,self.sheet.max_row+1):

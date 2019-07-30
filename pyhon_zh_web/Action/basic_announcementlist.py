@@ -88,20 +88,7 @@ class Basic:
          else:
              return  webtable.getCell(tr,td)
 
-    #    #删除服务公示
-    # def click_delete_button(self,tr,td,choose):
-    #      BSpage = Basic_public_Page(self.driver)
-    #      BSpage.Get_public_page().click()
-    #      time.sleep(0.5)
-    #      BSpage.getpublic_list().click()
-    #      time.sleep(0.5)
-    #      deletebutton =  BSpage.delete_table_element(tr,td)
-    #      deletebutton.click()
-    #      time.sleep(0.5)
-    #      if choose == '取消':
-    #          BSpage.button_delete_cancel()
-    #      elif choose == '确定':
-    #          BSpage.button_delete_determine().click()
+
 
 
     #######################################服务公示####################################
@@ -215,7 +202,7 @@ class Basic:
 
 
     #获取服务公示页面table中指定单元格中的元素
-     #验证table中的内容
+    #验证table中的内容
     def  select_table_publicelement(self,tr,td,celltext=0):
          info("输入的测试数据:  第{}行   第{}列  是否打开也是0是1否".format(tr,td,celltext))
          # BSpage = Basic_announcement_Page(self.driver)
@@ -236,6 +223,36 @@ class Basic:
         BSpage = Basic_public_Page(self.driver)
         webtable= Table(BSpage.get_public_table())
         return webtable.getRowCount()
+
+
+    #获取首页标签筛选框,并选择元素
+    def choose_lable_screening(self,screening):
+        BSpage = Basic_public_Page(self.driver)
+        BSpage.slect_lable_public().click()
+        if screening == '资质公示':
+            BSpage.selectpublic_Lableprompt1().click()
+        elif screening == '物业服务':
+            BSpage.selectpublic_page_communitynotice().click()
+        elif screening == '收费标准':
+            BSpage.selectpublic_page_communitypropaganda().click()
+        elif screening == '设备运行公示':
+            BSpage.selectpublic_page_communityactivity().click()
+
+
+    #选择并点击发布状态
+    #获取首页标签筛选框,并选择元素
+    def choose_lable_release(self,typle):
+        BSpage = Basic_public_Page(self.driver)
+        if typle == '未发布':
+            BSpage.selectpublic_type1_loable().click()
+        elif typle == '已发布':
+            BSpage.selectpublic_type2_loable().click()
+        elif typle == '已删除':
+            BSpage.selectpublic_type3_loable().click()
+
+
+
+
 
 
 
@@ -263,6 +280,13 @@ if __name__ == '__main__':
         # # time.sleep(3)
         # Ba.click_delete_button(1,6,'取消')
         # assert  element == Ba.select_table_publicelement(1,1,1)
-        # driver.close()
 
+        Ba.choose_lable_screening('物业服务')
+        time.sleep(5)
+        # Ba.choose_lable_release('已发布')
+        time.sleep(5)
         print(Ba.getRownumberCount())
+        for i in range(Ba.getRownumberCount()):
+            print(Ba.select_table_publicelement(i,2,1).text)
+
+        driver.close()

@@ -109,6 +109,17 @@ class test_basic(unittest.TestCase):
         self.Ba.click_delete_button(1,6,'确定')
         assert element not in self.Ba.select_table_publicelement(1,1,1).text
 
+     #服务公示标签筛选
+    def test_choose_public(self):
+        self.Ba.Enter_the_public()
+        self.Ba.choose_lable_screening('物业服务')
+        time.sleep(1)
+        self.Ba.choose_lable_release('未发布')
+        time.sleep(5)
+        print(self.Ba.getRownumberCount())
+        for i in range(self.Ba.getRownumberCount()):
+            assert '物业服务'  == self.Ba.select_table_publicelement(i,2,1).text
+
 
 
     def tearDown(self):

@@ -352,7 +352,7 @@ class Basic_public_Page(object):
          return divseleinput
 
 
-     #定位标签选项(收费标准)
+     #定位标签选项(设备运行公示)
      def selectpublic_page_communityactivity(self):
          locateType, locateExpression = self.basic_announcement['selectpublic_page_communityactivity'].split('>')
          divseleinput= getElement(self.driver,locateType,locateExpression)
@@ -373,7 +373,7 @@ class Basic_public_Page(object):
 
 
      #定位筛选状态按钮(已删除)
-     def selectpublic_type2_loable(self):
+     def selectpublic_type3_loable(self):
          locateType, locateExpression = self.basic_announcement['selectpublic_type3_loable'].split('>')
          divseleinput= getElement(self.driver,locateType,locateExpression)
          return divseleinput
