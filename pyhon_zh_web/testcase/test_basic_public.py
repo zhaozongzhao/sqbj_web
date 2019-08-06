@@ -6,7 +6,7 @@ from Util.Excel import *
 from Util.var import *
 from Util.special import *
 
-class test_basic(unittest.TestCase):
+class test_basic1(unittest.TestCase):
 
     def successful(self):
         Ba = Basic(self.driver)
