@@ -1,11 +1,13 @@
 import unittest
+
 import ddt
+
 from Action.login import *
 from Action.page_home import *
 from Util.Excel import *
+from Util.log import *
 from Util.special import *
 from Util.var import *
-from testcase.log import *
 
 pe = parseExcel(Excelobject_path)
 All_case_date = pe.get_caseDatas_all()

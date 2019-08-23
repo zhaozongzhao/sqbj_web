@@ -1,11 +1,9 @@
-from pageobject.basic_page import *
-from Action.page_home import *
-from testcase.log import *
 import traceback
-from Action.login import *
-from Util.Table import Table
-from Util.special import *
 
+from Action.login import *
+from Action.page_home import *
+from Util.Table import Table
+from pageobject.basic_page import *
 
 
 class Basic:

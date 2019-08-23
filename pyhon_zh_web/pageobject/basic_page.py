@@ -1,4 +1,3 @@
-
 import time
 from Util.ParsePageObjectRepository import *
 from Util.var import *
@@ -17,7 +16,9 @@ class Basic_announcement_Page(object):
         self.driver = driver
         self.paser_page_object = ParsePageObjectRepository('BasicserverRepository.ini')
         self.basic_announcement = self.paser_page_object.getItemSection('Basic_announcement_home')
-        # info('返回配置的元素定位信息{}'.format(self.basic_announcement))
+
+        info('返回配置的元素定位信息{}'.format(self.basic_announcement))
+
         self.wait = WebDriverWait(self.driver, 10, 0.5)
 
     # 小区信息管理

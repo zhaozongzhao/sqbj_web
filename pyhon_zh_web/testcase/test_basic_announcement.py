@@ -1,4 +1,4 @@
-import unittest,time
+import unittest
 from Action.basic_announcementlist import *
 from Action.page_home import *
 from Action.login import *
@@ -7,6 +7,9 @@ from Util.var import *
 from Util.special import *
 
 class test_basic(unittest.TestCase):
+
+
+
     def setUp(self):
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument('--headless')
