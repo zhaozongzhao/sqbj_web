@@ -1,7 +1,5 @@
 import unittest
-
 import ddt
-
 from Action.login import *
 from Action.page_home import *
 from Util.Excel import *
@@ -81,3 +79,5 @@ class Test_login(unittest.TestCase):
             #     self.assertCountEqual(self.pe.get_cell_content(5,4),geterror(self.driver))
 
             #
+if __name__ == '__main__':
+    Test_login()
