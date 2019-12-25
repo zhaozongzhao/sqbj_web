@@ -1,3 +1,13 @@
 [
-  "test_basic_public.py::test_basic1::test_creadepublic1"
+  "test_basic_public.py::test_basic1::test_choose_public",
+  "test_basic_public.py::test_basic1::test_creadepublic1",
+  "test_basic_public.py::test_basic1::test_creadepublic2",
+  "test_basic_public.py::test_basic1::test_creadepublic3",
+  "test_basic_public.py::test_basic1::test_creadepublic4",
+  "test_basic_public.py::test_basic1::test_delete_public1",
+  "test_basic_public.py::test_basic1::test_delete_public2",
+  "test_basic_public.py::test_basic1::test_release_public1",
+  "test_basic_public.py::test_basic1::test_release_public2",
+  "test_basic_public.py::test_basic1::test_release_public3",
+  "test_basic_public.py::test_basic1::test_release_public4"
 ]

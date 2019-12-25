@@ -1,0 +1,6 @@
+*.png
+*.jpg
+*.ini
+/logs
+logs/
+.Ds_Store

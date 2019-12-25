@@ -11,11 +11,11 @@ if __name__ == '__main__':
     discover = unittest.defaultTestLoader.discover(Testcase_path, pattern='test_basic_public.py')
     # 新的测试报告
     BeautifulReport(discover).report(filename='智社区测试报告' + now, description='自动换测试', log_path=report_path)
-
-# if __name__ == '__main__':
-#     now = time.strftime('%Y-%m-%d %H-%m-%M')
-#     filename = report_path + now + 'resul.html'
-#     fp = open(filename, 'wb')
+#
+# # if __name__ == '__main__':
+# #     now = time.strftime('%Y-%m-%d %H-%m-%M')
+# #     filename = report_path + now + 'resul.html'
+# #     fp = open(filename, 'wb')
 #     runner = HTMLTestRunner(
 #         stream=fp,
 #         title='自动化测试报告',
